@@ -6,6 +6,7 @@ mydb = mysql.connector.connect(
     host = 'localhost',
     user = 'root',
     passwd = 'afroz123',
+    database = "proplayer"
 )
 
 mycursor = mydb.cursor()
