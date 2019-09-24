@@ -1,3 +1,8 @@
+# When query values are provided by the user, you should escape the values.
+
+# This is to prevent SQL injections, which is a common web hacking technique 
+# to destroy or misuse your database.
+
 import mysql.connector
 
 mydb = mysql.connector.connect(
